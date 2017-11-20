@@ -4,9 +4,10 @@ body {
 
 h1 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     color: #919191;
     font-size: 20px;
+    line-height: 40px;
     margin-bottom: 40px;
     letter-spacing: 8px;
 }
@@ -26,6 +27,12 @@ a {
     margin-top: 10px;
     text-transform: uppercase;
     display: block;
+}
+
+.avatar {
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 @media screen and (min-width: 480px) {
