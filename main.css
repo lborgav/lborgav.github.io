@@ -1,0 +1,29 @@
+body {
+    background: #2f343e;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: #919191;
+    /* text-shadow: 0px 0px 1px #000; */
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+.item {
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    display: block;
+}
