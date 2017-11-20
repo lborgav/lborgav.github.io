@@ -6,8 +6,9 @@ h1 {
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 100;
     color: #919191;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 40px;
+    letter-spacing: 8px;
 }
 
 a {
@@ -15,14 +16,23 @@ a {
 }
 
 .wrapper {
-    padding: 100px;
+    padding: 50px;
 }
 
 .item {
     font-family: 'Archivo Black', sans-serif;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 10px;
     text-transform: uppercase;
     display: block;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    .item {
+        font-size: 60px;
+    }
 }
